@@ -1,0 +1,28 @@
+.formulario{
+    padding: 20px;
+    background-color: blue;
+    width: 200px;
+}
+.formulario_input{
+    width: 100%;
+    text-align: center;
+    
+}
+.formulario_submit{
+    width: 50%;
+    margin-left: 25%;
+    border: solid;
+    background-color: green;
+}
+
+/* -Padding: 20px = de esta forma le agrega 20 pixeles de cada lado. es decir 20pixeles arriba, 20 derecha, 20abajo y 20 arriba
+
+-Padding: 20px 0 25px 40px= de esta manera estamos seleccionando cada lado por separado empezando desde arriba en el sentido de las agujas del reloj(arriba,derecha,abajo y izquierda) es decir en este caso el lado de arriba serian 20px el de la derecha 0 abajo 25 e izquierda 40px 
+
+-Padding 50px 25px= si se colocan solo dos valores como en el ejemplo el primer valor edita el eje vertica y el segundo valor el eje horizontal
+
+- tambien puede ser padding top, padding botton, padding left y padding right para editar cada lado por separado
+
+- Margin es para los margenes. los margenes no forman parte de los box model como si lo son border, padding y el contenido. los margenes tienen una propiedad que se llama margin prolapsado. y es que cuando dos cajas(box) una arriba de la otra si se coloca que tendra margen(margin) de 20pixeles los margenes superiores e inferiores de ambas cajas no se suman. solo se toma en cuanta el margen mas grande. por ejemplo. una caja arriba tiene margen inferior de 60px y la caja de abajo tiene un margen de 30px entonces las dos cajas tendran un margen de 60px que las separa. 60px porque el el margen mas grande donde convergen*/
+
+/* a los elementos se le puede agregar dos clases */

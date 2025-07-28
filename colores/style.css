@@ -1,0 +1,15 @@
+.box{
+    background-color: #3C9E57;
+    color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+/* existen tres modelos para elegir color en css. RGB, Hexadecimal y HSL. el mas usado de los tres es el hexadecimal. 
+RGB 255 255 255 en el rgb significa rojo, verde y azul, cada uno va desde el 0 a 255 entonces para por ejemplo hacer un rojo seria 255 0 0, un verde 0 255 0 y un azul 0 0 255. y asi se va combinando para crear otros colores
+Hexadecimal #11aacc en el hexadecimal se usan un sistema de 16 digitos que serian desde el 0 al 9 y desde la A a la F, el 0 seria como el 0 en el sistema RGB y la F seria como el 255. entonces si escribimos ff0000 seria un rojo, 00ff00 seria un verde y 0000ff seria un azul. tambien se puede escribir para rojo #f00, #0f0 verde y #00f para el azul. cuando se usan ff0000 es para darle mas exactitud al color porque la segunda F es para elegir otro tono del color y cuando se usa solo una F es para elegir el color puro. para dar opacidad en el sistema hexadecimal se usa dos digitos mas por ejemplo #ffffffff #ffff o #0000ffff #0000ff55 la opacidad mientras mas bajo es el numero mas claro sera el color
+
+!!para ayudar a encontrar un color buscar en google HTML COLOR CODES!!
+
+!!y para conseguir palestas de colores. buscar en google generador de paletas de colores*/

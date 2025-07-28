@@ -1,0 +1,46 @@
+.caja{
+    background-color: #ccc;
+    border-left: 6px #777 solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vh;
+    height: 100vw;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.titulo{
+    margin-left: 9px;
+}
+
+span{
+    
+    font-size: 0.5em;
+    font-weight: 100;
+    color: #777;
+}
+.parrafo{
+    color: #777;
+    margin: 0 9px 10px 9px;
+    padding-bottom: 10px; 
+}
+
+/* unidades de medidas
+
+UNIDADES ABSOLUTAS
+
+- mm(milimetros) cm(centimetros) y in(pulgadas) esto se usa cuando las medidas seran usadas en la vida real. por ejemplo para impresiones. en la pagina web se verian las medidas pero en impresiones, flayers etc. por ejemplo si uno pone un margen de 4cm en una impresion saldra de 4cm sin importar como se veia en la pagina web
+
+- px(pixeles) esta unidad de medida se refiere a los pixeles en pantalla
+
+UNIDADES RELATIVAS: dependen de otros valores. por ejemplo si se usa porcentaje este valor depende de los valores que tiene la caja de ese elemento. ejemplo si en una caja div esta de tamano(width) de 100px y una coloca un parrafo con un width 50% entoces el tamano de la caja de parrafo pasara a ser el 50% del tamano de div que en este caso serian 50px. estas medidas son usadas en el responsive designe(osea para que se vea bien la pagina web en cualquier dispositivo)
+
+em= la unidad de medida em es un multiplicador. por ejemplo si el elemento padre es de 100px y uno coloca 1em entonces el elemento sera de 100px pero si uno coloca un tamano de 2em sera de 200px y asi susecivamente. em multiplica el elemento que esta en la caja contenedora, si en la caja contenedora no hay un valor determinado entonces buscara en la caja contenedora que contiene la caja en la que esta el elemento que estoy usando que en este caso seria la caja abuelo. sino seguira buscando hasta la raiz que seria el html
+
+rem= el rem es parecido al em pero en vez de buscar en la misma caja busca directo en el elemento raiz. en el html
+
+vh(viewport height y vw(viewport width) con esto hacemos que el contenido se adapte a la ventana. por ejemplo 50vh 50vw la caja se adaptara al tamano de la ventana del navegador
+
+
+
+
+
+*/

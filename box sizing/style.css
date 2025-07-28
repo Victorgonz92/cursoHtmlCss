@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.box1{
+    border-style: solid;
+    border-color: yellowgreen;
+    border-width: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.box2{
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-width: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+/* el border-sizing:border-box es para que la caja no se agrande mas de lo que uno le asigna. en este ejemplo las cajas tienen asignado 150px X 150px en la caja uno no se le asigna el border box y la caja crece a medida que uno agranda el margen, contenido, padding. en cambio en la caja dos al agregarle el box-sizing:border-box: ya no se agranda mas la caja al agrandar margenes ni contenido ni bordes. la caja siempre medira lo que se le asigno. que ne este caso es 150px por 150 px  */

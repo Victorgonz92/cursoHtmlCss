@@ -1,0 +1,8 @@
+div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+/* width se usa para determinar la altura de la caja
+height se usa para determinar el ancho de la caja */
